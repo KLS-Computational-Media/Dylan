@@ -7,10 +7,10 @@ function setup() {
 function draw() {
   quad(mouseX, 0, mouseX, 700, 0, mouseY, 600, mouseY);
   if (mouseIsPressed) {
-    fill(554,28,300, 6);
+    fill(554,28,300,6);
     noStroke()
   } else {
-    fill(123,287,467, 6);
+    fill(123,287,467,6);
     noStroke()
  
 }}
